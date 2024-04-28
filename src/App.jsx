@@ -1,14 +1,15 @@
+/* eslint-disable no-unused-vars */
 
-import './App.css'
+import React from 'react';
+import PhotosView from './Features/Web/PhotosView';
 
-function App() {
-
-
+const App = () => {
   return (
-    <>
-      
-    </>
-  )
-}
+    <div>
+      <p className='text center'>PHOTOS</p>
+      <PhotosView/>
+    </div>
+  );
+};
 
-export default App
+export default App;
